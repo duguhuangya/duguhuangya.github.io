@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+
+
+/* 右侧导航 */
+
+#fullPage-nav {
+    _display: none;
+    font-size: 12px;
+}
+
+#fullPage-nav li {
+    width: 90px;
+    height: 21px;
+    margin: 10px 0 0;
+    vertical-align: middle;
+}
+
+#fullPage-nav li a {
+    float: right;
+    width: 21px;
+    height: 21px;
+    color: #8F9DA4;
+    text-decoration: none;
+    text-align: right;
+    background: url(../images/dot.png) 5px 5px no-repeat;
+}
+
+#fullPage-nav li .active {
+    background-position: 0 bottom;
+}
+
+#fullPage-nav span {
+    display: none;
+}
+
+.fullPage-tooltip {
+    float: left;
+    top: 0;
+    margin-right: 5px;
+    font: 12px "Microsoft Yahei";
+    color: #8F9DA4;
+    line-height: 21px;
+}
+
+.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.section .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section .bg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bg11 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 850px;
+    background: url(../images/bg11.png) 50% 0 no-repeat;
+}
+
+.bg12 {
+    position: absolute;
+    margin-top:150px;
+    width: 100%;
+    height: 392px;
+    background: url(../images/bg12.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg13 {
+    position: absolute;
+    bottom: -357px;
+    width: 100%;
+    height: 357px;
+    background: url(../images/bg13.png) 50% 0 no-repeat;
+}
+
+.hgroup {
+    position: absolute;
+    width: 554px;
+    height: 176px;
+    left: 50%;
+    top: 25%;
+    margin: 0 0 0 -277px;
+    text-indent: -9999px;
+    background-image: url(../images/slogan.png);
+    display: none;
+}
+
+.mail {
+    position: absolute;
+    left: 50%;
+    top: -26px;
+    width: 375px;
+    height: 26px;
+    margin-left: -187px;
+    background-image: url(../images/logo.png);
+    float: left;
+    height: 26px;
+    text-indent: -9999px;
+}
+
+.bg21 {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    width: 819px;
+    height: 250px;
+    margin-bottom: 40px;
+    background: url(../images/bg21.png) 0 0 no-repeat;
+    opacity: 0;
+    margin-left: -1108px;
+}
+
+.bg22 {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    width: 819px;
+    height: 299px;
+    margin-bottom: 70px;
+    background: url(../images/bg22.png) right 0 no-repeat;
+    opacity: 0;
+    margin-left: 320px;
+}
+
+.bg23 {
+    position: absolute;
+    left: 50%;
+    bottom: -60%;
+    width: 819px;
+    height: 325px;
+    margin-left: -409px;
+    background: url(../images/bg23.png) 50% 0 no-repeat;
+}
+
+.section strong {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    z-index: 10;
+    width: 512px;
+    height: 45px;
+    margin-left: -256px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #748A9E;
+    opacity: 0;
+}
+
+.section h3 {
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    z-index: 10;
+    width: 512px;
+    height: 45px;
+    margin-left: -256px;
+    margin-top: 60px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.section2 h3 {
+    background-image: url(../images/t2.png);
+}
+
+.section3 h3 {
+    background-image: url(../images/t3.png);
+}
+
+.section4 h3 {
+    background-image: url(../images/t4.png);
+}
+
+.section5 strong {
+    width: 561px;
+    margin-left: -280px;
+}
+
+.section5 h3 {
+    width: 561px;
+    margin-left: -280px;
+    background-image: url(../images/t5.png);
+}
+
+.bg31 {
+    position: absolute;
+    bottom: -372px;
+    width: 100%;
+    height: 372px;
+    background: url(../images/bg31.png) 50% 0 no-repeat;
+}
+
+.bg32 {
+    position: absolute;
+    bottom: -449px;
+    width: 100%;
+    height: 449px;
+    background: url(../images/bg32.png) 50% 0 no-repeat;
+}
+
+.bg33 {
+    position: absolute;
+    bottom: -449px;
+    width: 100%;
+    height: 449px;
+    margin-bottom: -130px;
+    background: url(../images/bg33.png) 50% 0 no-repeat;
+}
+
+.bg41,
+.bg42,
+.bg43,
+.bg44 {
+    position: absolute;
+    z-index: 1;
+    width: 208px;
+    left: 50%;
+    bottom: 20%;
+    padding-top: 210px;
+    color: #fff;
+}
+
+.section4 h4 {
+    margin-bottom: 12px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.section4 p {
+    font-size: 14px;
+}
+
+.bg41 {
+    margin-left: -851px;
+    background: url(../images/bg41.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg42 {
+    margin-left: -403px;
+    background: url(../images/bg42.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg43 {
+    margin-left: 195px;
+    background: url(../images/bg43.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg44 {
+    margin-left: 645px;
+    background: url(../images/bg44.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg51 {
+    position: absolute;
+    left: 50%;
+    bottom: -201px;
+    width: 699px;
+    height: 201px;
+    margin-left: -630px;
+    background: url(../images/bg51.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg52 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    bottom: -206px;
+    width: 182px;
+    height: 206px;
+    margin-left: -170px;
+    background: url(../images/bg52.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg53 {
+    position: absolute;
+    left: 50%;
+    bottom: 170px;
+    width: 651px;
+    height: 231px;
+    margin-left: -530px;
+    background: url(../images/bg53.png) 50% 0 no-repeat;
+}
+
+.bg54 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg54 img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 251px;
+}
+
+.txt5 {
+    position: absolute;
+    left: 50%;
+    bottom: -150px;
+    width: 420px;
+    margin-left: 100px;
+    opacity: 0;
+}
+
+.txt5 p {
+    margin-bottom: 17px;
+    color: #EAEFF2;
+}
+
+.bg61 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg61.png) 50% 20% no-repeat;
+}
+
+.bg62 {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 79px;
+    background: url(../images/bg62.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.bg63 {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 37px;
+    margin-top: 110px;
+    background: url(../images/bg63.png) 50% 0 no-repeat;
+    opacity: 0;
+}
+
+.go {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 254px;
+    height: 70px;
+    margin-top: 220px;
+    margin-left: -127px;
+    text-indent: -9999px;
+    background-image: url(../images/btn.png);
+    opacity: 0;
+}
+
+.copyright {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.copyright a,
+.copyright span {
+    margin: 0px 7px;
+    font-size: 12px;
+    color: #a0a0a0;
+    text-decoration:none;
+}
