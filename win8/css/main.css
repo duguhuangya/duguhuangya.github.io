@@ -172,9 +172,10 @@ body {
 	color:#fff;
 }
 .first-col2-1 text{
-	font-size: 40px;
-	display: block;
-	line-height: 64px;
+	font-size: 28px;
+    display: block;
+    text-align: center;
+	/* line-height: 64px; */
 }
 .second-col2-1{
 	background: #666666;
@@ -183,7 +184,7 @@ body {
 	width: 256px;
 }
 .col2-2{
-	
+
 	overflow: hidden;
 	float: left;
 }
@@ -378,7 +379,7 @@ cursor: pointer;
 	/*改变左右上下,图片方块移动*/
 	margin: 100px 30px;
 	float: left;
-	
+
 }
 /*包裹所有容器样式*/
 .cube{
